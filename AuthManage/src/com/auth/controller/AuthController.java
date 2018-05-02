@@ -1,4 +1,4 @@
-package com.auth.controller;
+﻿package com.auth.controller;
 
 import java.util.HashMap;
 
@@ -17,7 +17,7 @@ import org.springframework.web.servlet.ModelAndView;
 import com.auth.entity.Auth;
 import com.auth.entity.User;
 import com.auth.service.AuthService;
-
+//这是权限的控制器
 @Controller
 @RequestMapping("/auth")
 public class AuthController {
